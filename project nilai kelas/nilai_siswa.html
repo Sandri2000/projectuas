@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <title>Nilai Siswa</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="homepage.html"><img class="rounded-circle" style="width: 100px;" src="Gambar/1.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-primary text-capitalize text-decoration-underline" href="homepage.html"><strong>Beranda</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-primary text-capitalize text-decoration-underline" href="data_siswa.html"><strong>Data Siswa</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-primary text-capitalize text-decoration-underline" href="nilai_siswa.html"><strong>Nilai Siswa</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-primary text-capitalize text-decoration-underline" href="data_guru.html"><strong>Guru</strong></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <!-- batas navbar -->
+    <!-- pencarian -->
+    <div class="row">
+      <div class="container-fluid">
+        <div class="col-md-5">
+          <input class="form-control mx-5 border-1 border-primary" type="search" placeholder="Cari Nama Siswa">
+          <br>
+          <button class="btn btn-outline-primary btn-info ms-5">Cari Siswa</button>
+          <button class="btn btn-outline-primary btn-info ms-5">Hapus</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- batas pencarian -->
+    <!-- data -->
+    <div class="row">
+      <div class="container-fluid">
+        <p class="border border-light bg-light">Table Nilai Siswa</p>
+        <div class="">
+          <button class="btn btn-light btn-outline-info text-center ms-3 my-2">Tambah</button>
+        </div>
+        <!-- table -->
+        <div>
+          <table class="table table-sm table-striped table-light table-hover table-responsive-md">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Mata Pelajaran</th>
+                <th scope="col">Nilai Rata-Rata</th>
+                <th scope="col">Nilai Ujian Sekolah</th>
+                <th scope="col">Nilai Sekolah</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Bahasa Indonesia</td>
+                <td>60</td>
+                <td>70</td>
+                <td>89</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Bahasa Inggris</td>
+                <td>65</td>
+                <td>75</td>
+                <td>86</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Ilmu Pengetahuan Alam</td>
+                <td>65</td>
+                <td>71</td>
+                <td>93</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Matematika</td>
+                <td>65</td>
+                <td>71</td>
+                <td>93</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Fisika</td>
+                <td>65</td>
+                <td>71</td>
+                <td>93</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Pendidikan Agama</td>
+                <td>65</td>
+                <td>71</td>
+                <td>93</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- batas table -->
+      </div>
+    </div>
+    <!-- batas data -->
+    <!-- footer -->
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="bi bi-facebook"></i
+            ></a>
+            
+            <!-- Twitter -->
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-twitter"></i
+              ></a>
+              
+              <!-- Google -->
+              <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="bi bi-google"></i
+                ></a>
+                
+                <!-- Instagram -->
+                <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #ac2bac;"
+                href="#!"
+                role="button"
+                ><i class="bi bi-instagram"></i
+                  ></a>
+                  
+                  <!-- Linkedin -->
+                  <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #0082ca;"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <!-- Github -->
+                    <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #333333;"
+                    href="#!"
+                    role="button"
+                    ><i class="bi bi-github"></i
+                      ></a>
+                    </section>
+                    <!-- Section: Social media -->
+                  </div>
+                  <!-- Grid container -->
+                  
+                  <!-- Copyright -->
+                  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    &copy; 2022 Copyright:
+                    <a class="text-white" href="#">DWL SI-3E</a>
+                  </div>
+                  <!-- Copyright -->
+                </footer>
+                <!-- batas footer -->
+              </div>
+            </body>
+            </html>
